@@ -10,16 +10,16 @@ from gpaw import GPAW, PW
 ata = read('POSCAR_1.1')
 
 
-for k in range (2, 10):
+for k in range (2, 3):
 	calc = GPAW(kpts = (k,k,k),
-		mode = PW(100),
+		mode = PW(10),
 		h = 0.2,
 		nbands = 162,
 		xc = 'PBE',
-		txt = 'HA5out.txt')
+		txt = 'HA5out1.txt')
 
 	ata.set_calculator(calc)
 
 	forces = ata.get_forces()
-	with open('forcefileK2','ab') as f: f.write('%f \ %f',(forces, k))
+	with open('forcefileK','ab') as f: f.write('%f \ %f',(forces, k))
 
