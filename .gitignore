@@ -59,9 +59,11 @@ var/
 *.egg
 
 #ASE data #
+
 *.traj
 *.gpw
 sub.*
+
 *.bak
 # OS generated files #
 .DS_Store
