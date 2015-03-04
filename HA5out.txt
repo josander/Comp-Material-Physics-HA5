@@ -1,0 +1,246 @@
+
+  ___ ___ ___ _ _ _  
+ |   |   |_  | | | | 
+ | | | | | . | | | | 
+ |__ |  _|___|_____|  0.9.1.9737
+ |___|_|             
+
+User:  josander@beda30-1.nfs.private
+Date:  Thu Feb 26 16:10:00 2015
+Arch:  x86_64
+Pid:   16683
+Dir:   /beda/sw/apps/GPAW/r9737-py26-i111-mkl102/lib/python2.6/site-packages/gpaw
+ase:   /beda/sw/apps/ase/3.9.0.3505/lib/python2.6/site-packages/ase (version 3.9.0.3505)
+numpy: /beda/sw/apps/numpy/py26/1.5.1rc2/mkl10.2/lib/python2.6/site-packages/numpy (version 1.5.1rc2)
+units: Angstrom and eV
+cores: 8
+
+Memory estimate
+---------------
+Process memory now: 241.39 MiB
+Calculator  447.10 MiB
+    Density  150.85 MiB
+        Arrays  68.04 MiB
+        Localized functions  67.11 MiB
+        Mixer  15.70 MiB
+    Hamiltonian  45.86 MiB
+        Arrays  44.49 MiB
+        XC  0.00 MiB
+        Poisson  0.00 MiB
+        vbar  1.37 MiB
+    Wavefunctions  250.40 MiB
+        Arrays psit_nG  74.97 MiB
+        Eigensolver  4.63 MiB
+        Projectors  6.48 MiB
+        Overlap op  150.54 MiB
+        PW-descriptor  13.78 MiB
+
+Positions:
+  0 Al   -0.6438   -0.2524    1.3446
+  1 Al    0.5094    2.5084    2.3171
+  2 Al    1.6001   -0.2355    2.8910
+  3 Al    0.5338    1.0711   -0.6089
+  4 Al   -0.6320    0.6643    4.2866
+  5 Al    1.0605    2.2923    5.4334
+  6 Al    1.8450   -0.0374    6.8884
+  7 Al    3.2218    2.3916    3.4781
+  8 Al   -0.1766   -0.5424    9.0722
+  9 Al    1.7015    2.8013   10.6150
+ 10 Al    3.5571    0.9309   10.6983
+ 11 Al    2.4462    2.1133    8.0427
+ 12 Al    0.5444    3.9471   -0.4690
+ 13 Al   -0.5984    6.9686    1.6658
+ 14 Al    1.5344    5.0696    1.9402
+ 15 Al    1.6783    7.8663    0.8937
+ 16 Al   -0.7018    4.9295    3.9134
+ 17 Al    0.6345    6.7123    6.2685
+ 18 Al    2.5458    4.8032    4.6711
+ 19 Al    1.9595    7.2876    3.5730
+ 20 Al    1.1534    4.5611    8.1694
+ 21 Al    0.8836    6.6054   11.6183
+ 22 Al    3.1581    5.2971   10.0981
+ 23 Al    2.5318    7.6647    9.1599
+ 24 Al   -0.0185   10.2186    0.9249
+ 25 Al   -1.1500   11.5313    3.2846
+ 26 Al    2.0302   10.2380    2.6769
+ 27 Al    2.2257   12.1433   -0.0523
+ 28 Al   -0.0610    9.2661    4.5778
+ 29 Al   -0.6157   11.5464    6.7819
+ 30 Al    2.2331    9.3900    6.5756
+ 31 Al    1.2318   11.6923    5.0578
+ 32 Al    0.2168    9.2735    9.8102
+ 33 Al    0.2268   11.5162   11.4145
+ 34 Al    2.0171    9.7207   12.0878
+ 35 Al    2.7235   11.6953    8.9756
+ 36 Al    4.3996    0.6213    1.2491
+ 37 Al    2.8208    2.8681    0.8333
+ 38 Al    7.1260   -0.1982    1.7885
+ 39 Al    6.8177    2.3739    0.3284
+ 40 Al    3.8371   -0.3568    4.2585
+ 41 Al    4.2854    2.0684    5.9908
+ 42 Al    7.5659    0.0218    6.5072
+ 43 Al    5.8255    2.1369    3.1291
+ 44 Al    4.7837    0.9770    8.1909
+ 45 Al    4.6554    3.3494   12.1864
+ 46 Al    5.9172    0.0531   12.0484
+ 47 Al    7.4446    1.4854    9.7850
+ 48 Al    3.2484    5.6365   -0.2876
+ 49 Al    4.2994    5.8038    2.4497
+ 50 Al    7.1280    4.8528    2.5552
+ 51 Al    6.6747    7.0697    0.3028
+ 52 Al    5.1974    4.2413    4.2375
+ 53 Al    3.3865    7.1303    6.1908
+ 54 Al    6.3860    3.5493    8.0576
+ 55 Al    6.3422    6.0212    6.2645
+ 56 Al    4.0475    4.5759    7.2652
+ 57 Al    4.2863    8.1985   11.3528
+ 58 Al    6.5594    4.8855   10.7641
+ 59 Al    5.2826    6.4543    8.6276
+ 60 Al    4.3765    8.8013    0.9059
+ 61 Al    4.4075   11.4847    1.5911
+ 62 Al    6.3930    8.6856    2.6615
+ 63 Al    6.7163   10.3082    0.3722
+ 64 Al    4.2022    8.5424    4.0217
+ 65 Al    4.2227   12.0222    6.6600
+ 66 Al    7.1230    9.4947    7.7371
+ 67 Al    5.9136   11.4616    4.0925
+ 68 Al    4.5427    9.7906    8.6098
+ 69 Al    4.3146   11.1942   11.4726
+ 70 Al    6.7928    8.8883   10.4957
+ 71 Al    6.9408   11.9860    9.0853
+ 72 Al    9.9452   -0.4418    0.1066
+ 73 Al    8.2471    1.2679    3.8007
+ 74 Al   10.5659    0.7215    2.6052
+ 75 Al   11.1146    2.1876    0.6647
+ 76 Al   10.2330   -0.5274    5.6039
+ 77 Al    9.2518    2.0198    7.4397
+ 78 Al   11.9681    1.2181    7.0111
+ 79 Al   10.9744    3.6540    5.7598
+ 80 Al   10.0968   -0.1949    8.8836
+ 81 Al    9.6122    2.0394   11.6132
+ 82 Al   11.6067   -0.1920   11.2622
+ 83 Al   11.9946    2.4473    9.8923
+ 84 Al    8.8041    3.9956    0.2474
+ 85 Al    8.8311    5.8428    4.4645
+ 86 Al    9.9035    3.4040    2.8153
+ 87 Al   10.2900    6.4865    0.4085
+ 88 Al    7.8738    3.3445    5.5303
+ 89 Al    9.3358    5.7468    7.4779
+ 90 Al   12.2462    5.2339    9.6578
+ 91 Al   11.0526    6.9277    5.2088
+ 92 Al    9.2827    3.6733    9.6021
+ 93 Al    8.8565    5.8558   11.0971
+ 94 Al   11.1840    4.2862   11.9807
+ 95 Al   11.4798    7.4448   11.0509
+ 96 Al    8.9365    8.8022    1.4914
+ 97 Al    9.5477   11.5014    3.1548
+ 98 Al   11.1868    8.9919    2.4232
+ 99 Al   10.9446   10.6146   -0.2054
+100 Al    8.1480    8.2530    4.7740
+101 Al    9.9335   10.7442    8.0028
+102 Al   12.1170    8.5157    7.4511
+103 Al   10.7973    9.9415    5.5012
+104 Al    9.2330    7.9064    9.3062
+105 Al    9.0333   11.8886   11.3779
+106 Al    8.9604    8.6308   12.0585
+107 Al   10.7425   10.0634   10.4822
+
+         .--------------------------------.  
+        /|    Al                          |  
+       / |                        Al      |  
+      / Al                    Al      Al  |  
+     /   |  Al    Al        Al            |  
+    /    |  Al                    Al     Al  
+   / AlAl|     AAl     AlAl       Al      |  
+  /    Al|    Al          Al   Al         |  
+ * Al    |  AlAl  AlAl       Al Al        |  
+ |       |  Al     Al   AlAl      Al   Al |  
+ |     Al|      AlAl      Al      AlAl    |  
+ |     Al|AlAl    AlAl          AlAl      |  
+ |     Al|    Al   Al Al   Al             |  
+ |      Al   AAl    Al    Al   Al     AAl |  
+ |       |   Al Al       All    Al        |  
+ |       |AlAl     Al Al  Al  AAl       Al|  
+ |   Al  .Al-Al-Al--AlAl---------AAAl-----.  
+ |      /               Al  Al          Al   
+ |     /  Al   AlAl   Al         Al  Al /    
+ |    / Al       Al   Al   Al          /     
+ |  Al                      AlAl      /      
+ |  /     Al             Al          /       
+ | /        Al     Al         Al    /        
+ |/                                /         
+ *--------------------------------*          
+
+Unit Cell:
+           Periodic     X           Y           Z      Points  Spacing
+  --------------------------------------------------------------------
+  1. axis:    yes   13.365000    0.000000    0.000000    70     0.1909
+  2. axis:    yes    0.000000   13.365000    0.000000    70     0.1909
+  3. axis:    yes    0.000000    0.000000   13.365000    70     0.1909
+
+Al-setup:
+  name   : Aluminium
+  id     : 0292cae29f5d6237e50f6abdd43a7bdd
+  Z      : 13
+  valence: 3
+  core   : 10
+  charge : 0.0
+  file   : /beda/sw/apps/GPAW/r9737-py26-i111-mkl102/gpaw-setups-0.9.9672/Al.PBE.gz
+  cutoffs: 1.08(comp), 1.91(filt), 2.36(core), lmax=2
+  valence states:
+            energy   radius
+    3s(2)   -7.753   1.085
+    3p(1)   -2.712   1.085
+    *s      19.459   1.085
+    *p      24.500   1.085
+    *d       0.000   1.085
+
+Using partial waves for Al as LCAO basis
+
+Using the PBE Exchange-Correlation Functional.
+Spin-Paired Calculation
+Total Charge:      0.000000
+Fermi Temperature: 0.100000
+Wave functions: Plane wave expansion
+      Cutoff energy: 500.000 eV
+      Number of coefficients (min, max): 60658, 60658
+      Using FFTW library
+Eigensolver:       rmm-diis
+XC and Coulomb potentials evaluated on a 140*140*140 grid
+Interpolation: FFT
+Poisson solver: FFT
+Reference Energy:  -713169.965026
+
+Total number of cores used: 8
+Parallelization over k-points: 4
+Parallelization over states: 2
+
+Symmetries present: 1
+8 k-points: 2 x 2 x 2 Monkhorst-Pack grid
+4 k-points in the Irreducible Part of the Brillouin Zone
+Linear Mixing Parameter:           0.1
+Pulay Mixing with 3 Old Densities
+Damping of Long Wave Oscillations: 50
+
+Convergence Criteria:
+Total Energy Change:           0.0005 eV / electron
+Integral of Absolute Density Change:    0.0001 electrons
+Integral of Absolute Eigenstate Change: 4e-08 eV^2
+Number of Atoms: 108
+Number of Atomic Orbitals: 432
+Number of Bands in Calculation:         162
+Bands to Converge:                      Occupied States Only
+Number of Valence Electrons:            324
+                     log10-error:    Total        Iterations:
+           Time      WFS    Density  Energy       Fermi  Poisson
+iter:   1  16:16:44  +0.6            -312.174630  0             
+iter:   2  16:20:59  -1.1            -367.730848  0             
+iter:   3  16:25:12  -2.2            -368.844853  0             
+iter:   4  16:30:50  -1.9   -0.9     -366.538288  0             
+iter:   5  16:36:19  -1.2   -1.0     -364.249521  0             
+iter:   6  16:41:59  -1.9   -1.2     -366.042115  0             
+iter:   7  16:47:29  -1.9   -1.5     -365.668445  0             
+iter:   8  16:52:59  -2.6   -1.8     -366.000388  0             
+iter:   9  16:58:30  -2.6   -1.9     -365.894623  0             
+iter:  10  17:04:12  -3.3   -2.1     -366.006786  0             
+iter:  11  17:09:45  -2.9   -2.2     -365.972840  0             
