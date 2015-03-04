@@ -10,4 +10,4 @@ cd $PBS_O_WORKDIR
 module purge
 module load COURSES/TIF035-2014
 export GPAW_SETUP_PATH=$PBS_O_WORKDIR:$GPAW_SETUP_PATH
-python ./HA5.py 
+mpirun gpaw-python ./HA5.py 

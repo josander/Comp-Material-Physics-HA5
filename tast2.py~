@@ -1,0 +1,10 @@
+import numpy as np
+from ase import *
+from ase.io import read
+from ase.calculators.eam import EAM
+from gpaw.eigensolvers import Davidson
+from gpaw import GPAW, PW
+
+def main():
+	dftForces = read('POSCAR_1.1')
+	

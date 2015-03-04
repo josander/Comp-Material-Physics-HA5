@@ -9,11 +9,10 @@ from gpaw import GPAW, PW
 #at10 = io.read('POSCAR_1.0')
 ata = read('POSCAR_1.1')
 
-f = open('forcefileK', 'w')
 
 for k in range (2, 10):
 	calc = GPAW(kpts = (k,k,k),
-		mode = PW(500),
+		mode = PW(100),
 		h = 0.2,
 		nbands = 162,
 		xc = 'PBE',
@@ -22,7 +21,5 @@ for k in range (2, 10):
 	ata.set_calculator(calc)
 
 	forces = ata.get_forces()
+	with open('forcefileK2','ab') as f: f.write('%f \ %f',(forces, k))
 
-	f.write('%f \ %f',(forces, k))
-
-f.closed

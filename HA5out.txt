@@ -5,10 +5,10 @@
  |__ |  _|___|_____|  0.9.1.9737
  |___|_|             
 
-User:  josander@beda30-1.nfs.private
-Date:  Thu Feb 26 16:10:00 2015
+User:  davsven@beda64-1.nfs.private
+Date:  Wed Mar  4 19:30:23 2015
 Arch:  x86_64
-Pid:   16683
+Pid:   9725
 Dir:   /beda/sw/apps/GPAW/r9737-py26-i111-mkl102/lib/python2.6/site-packages/gpaw
 ase:   /beda/sw/apps/ase/3.9.0.3505/lib/python2.6/site-packages/ase (version 3.9.0.3505)
 numpy: /beda/sw/apps/numpy/py26/1.5.1rc2/mkl10.2/lib/python2.6/site-packages/numpy (version 1.5.1rc2)
@@ -17,8 +17,8 @@ cores: 8
 
 Memory estimate
 ---------------
-Process memory now: 241.39 MiB
-Calculator  447.10 MiB
+Process memory now: 234.73 MiB
+Calculator  231.62 MiB
     Density  150.85 MiB
         Arrays  68.04 MiB
         Localized functions  67.11 MiB
@@ -28,12 +28,12 @@ Calculator  447.10 MiB
         XC  0.00 MiB
         Poisson  0.00 MiB
         vbar  1.37 MiB
-    Wavefunctions  250.40 MiB
-        Arrays psit_nG  74.97 MiB
-        Eigensolver  4.63 MiB
-        Projectors  6.48 MiB
-        Overlap op  150.54 MiB
-        PW-descriptor  13.78 MiB
+    Wavefunctions  34.92 MiB
+        Arrays psit_nG  6.72 MiB
+        Eigensolver  0.42 MiB
+        Projectors  0.58 MiB
+        Overlap op  14.05 MiB
+        PW-descriptor  13.15 MiB
 
 Positions:
   0 Al   -0.6438   -0.2524    1.3446
@@ -202,8 +202,8 @@ Spin-Paired Calculation
 Total Charge:      0.000000
 Fermi Temperature: 0.100000
 Wave functions: Plane wave expansion
-      Cutoff energy: 500.000 eV
-      Number of coefficients (min, max): 60658, 60658
+      Cutoff energy: 100.000 eV
+      Number of coefficients (min, max): 5440, 5440
       Using FFTW library
 Eigensolver:       rmm-diis
 XC and Coulomb potentials evaluated on a 140*140*140 grid
@@ -233,14 +233,11 @@ Bands to Converge:                      Occupied States Only
 Number of Valence Electrons:            324
                      log10-error:    Total        Iterations:
            Time      WFS    Density  Energy       Fermi  Poisson
-iter:   1  16:16:44  +0.6            -312.174630  0             
-iter:   2  16:20:59  -1.1            -367.730848  0             
-iter:   3  16:25:12  -2.2            -368.844853  0             
-iter:   4  16:30:50  -1.9   -0.9     -366.538288  0             
-iter:   5  16:36:19  -1.2   -1.0     -364.249521  0             
-iter:   6  16:41:59  -1.9   -1.2     -366.042115  0             
-iter:   7  16:47:29  -1.9   -1.5     -365.668445  0             
-iter:   8  16:52:59  -2.6   -1.8     -366.000388  0             
-iter:   9  16:58:30  -2.6   -1.9     -365.894623  0             
-iter:  10  17:04:12  -3.3   -2.1     -366.006786  0             
-iter:  11  17:09:45  -2.9   -2.2     -365.972840  0             
+iter:   1  19:33:08  +0.6            -307.646413  0             
+iter:   2  19:33:33  -1.3            -361.900051  0             
+iter:   3  19:33:57  -2.6            -362.729893  0             
+iter:   4  19:35:49  -2.0   -0.9     -360.437967  0             
+iter:   5  19:37:38  -1.3   -1.0     -358.322959  0             
+iter:   6  19:39:27  -2.0   -1.2     -359.943542  0             
+                                                                                                                                                                                                        iter:  10  19:30:32  -3.3   -2.1     -366.006786  0             
+iter:  11  19:36:03  -2.9   -2.2     -365.972840  0             
