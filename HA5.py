@@ -12,7 +12,7 @@ ata = read('POSCAR_1.1')
 
 for k in range (2, 3):
 	calc = GPAW(kpts = (k,k,k),
-		mode = PW(10),
+		mode = PW(50),
 		h = 0.2,
 		nbands = 162,
 		xc = 'PBE',

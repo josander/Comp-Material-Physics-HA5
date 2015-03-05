@@ -2,7 +2,7 @@
 
 import numpy as np
 from ase import *
-from ase.calculators.eam import EAM
+from ase.calculators import EAM
 from scipy.interpolate import InterpolatedUnivariateSpline as spline
 
 cutoff = 6.5
