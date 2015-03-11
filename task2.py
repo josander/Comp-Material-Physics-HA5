@@ -26,22 +26,14 @@ def main():
 	# Pseudokod som antagligen inte fungerar. Har inte vagat testa =(
 	atDFT = read('res_POSCAR_1.0.traj')
 	at = read('POSCAR_1.0')
-	forcesDFT = atDFT.get_forces();
+	forcesDFT = atDFT.get_forces()
 
 	A = 10000
-	lmbda = 2
+	lmbda = 3
 	D = 5
 	mu = 1
 	pInitial = (A, lmbda, D, mu)
 	params = opt.leastsq(residual, pInitial, args=(at, forcesDFT))
 		
-
-
-
-
-
-
-
-
 
 main()
