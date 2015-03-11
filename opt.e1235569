@@ -1,0 +1,97 @@
+
+Loading components for TIF035
+
+ValueError: object too deep for desired array
+Traceback (most recent call last):
+  File "./task2.py", line 47, in <module>
+    main()
+  File "./task2.py", line 36, in main
+    params = opt.leastsq(residual, pInitial, args=(at, forcesDFT))
+  File "/beda/sw/apps/scipy/py26/0.7.2/mkl10.2/lib/python2.6/site-packages/scipy/optimize/minpack.py", line 270, in leastsq
+    retval = _minpack._lmdif(func,x0,args,full_output,ftol,xtol,gtol,maxfev,epsfcn,factor,diag)
+minpack.error: Result from function call is not a proper array of floats.
+GPAW CLEANUP (node 6): <class 'minpack.error'> occurred.  Calling MPI_Abort!
+ValueError: object too deep for desired array
+Traceback (most recent call last):
+  File "./task2.py", line 47, in <module>
+    main()
+  File "./task2.py", line 36, in main
+    params = opt.leastsq(residual, pInitial, args=(at, forcesDFT))
+  File "/beda/sw/apps/scipy/py26/0.7.2/mkl10.2/lib/python2.6/site-packages/scipy/optimize/minpack.py", line 270, in leastsq
+    retval = _minpack._lmdif(func,x0,args,full_output,ftol,xtol,gtol,maxfev,epsfcn,factor,diag)
+minpack.error: Result from function call is not a proper array of floats.
+GPAW CLEANUP (node 0): <class 'minpack.error'> occurred.  Calling MPI_Abort!
+ValueError: object too deep for desired array
+Traceback (most recent call last):
+  File "./task2.py", line 47, in <module>
+    main()
+  File "./task2.py", line 36, in main
+    params = opt.leastsq(residual, pInitial, args=(at, forcesDFT))
+  File "/beda/sw/apps/scipy/py26/0.7.2/mkl10.2/lib/python2.6/site-packages/scipy/optimize/minpack.py", line 270, in leastsq
+    retval = _minpack._lmdif(func,x0,args,full_output,ftol,xtol,gtol,maxfev,epsfcn,factor,diag)
+minpack.error: Result from function call is not a proper array of floats.
+GPAW CLEANUP (node 5): <class 'minpack.error'> occurred.  Calling MPI_Abort!
+ValueError: object too deep for desired array
+Traceback (most recent call last):
+  File "./task2.py", line 47, in <module>
+    main()
+  File "./task2.py", line 36, in main
+    params = opt.leastsq(residual, pInitial, args=(at, forcesDFT))
+  File "/beda/sw/apps/scipy/py26/0.7.2/mkl10.2/lib/python2.6/site-packages/scipy/optimize/minpack.py", line 270, in leastsq
+    retval = _minpack._lmdif(func,x0,args,full_output,ftol,xtol,gtol,maxfev,epsfcn,factor,diag)
+minpack.error: Result from function call is not a proper array of floats.
+GPAW CLEANUP (node 7): <class 'minpack.error'> occurred.  Calling MPI_Abort!
+ValueError: object too deep for desired array
+Traceback (most recent call last):
+  File "./task2.py", line 47, in <module>
+    main()
+  File "./task2.py", line 36, in main
+    params = opt.leastsq(residual, pInitial, args=(at, forcesDFT))
+  File "/beda/sw/apps/scipy/py26/0.7.2/mkl10.2/lib/python2.6/site-packages/scipy/optimize/minpack.py", line 270, in leastsq
+    retval = _minpack._lmdif(func,x0,args,full_output,ftol,xtol,gtol,maxfev,epsfcn,factor,diag)
+minpack.error: Result from function call is not a proper array of floats.
+GPAW CLEANUP (node 2): <class 'minpack.error'> occurred.  Calling MPI_Abort!
+ValueError: object too deep for desired array
+Traceback (most recent call last):
+  File "./task2.py", line 47, in <module>
+    main()
+  File "./task2.py", line 36, in main
+    params = opt.leastsq(residual, pInitial, args=(at, forcesDFT))
+  File "/beda/sw/apps/scipy/py26/0.7.2/mkl10.2/lib/python2.6/site-packages/scipy/optimize/minpack.py", line 270, in leastsq
+    retval = _minpack._lmdif(func,x0,args,full_output,ftol,xtol,gtol,maxfev,epsfcn,factor,diag)
+minpack.error: Result from function call is not a proper array of floats.
+GPAW CLEANUP (node 1): <class 'minpack.error'> occurred.  Calling MPI_Abort!
+ValueError: object too deep for desired array
+Traceback (most recent call last):
+  File "./task2.py", line 47, in <module>
+    main()
+  File "./task2.py", line 36, in main
+    params = opt.leastsq(residual, pInitial, args=(at, forcesDFT))
+  File "/beda/sw/apps/scipy/py26/0.7.2/mkl10.2/lib/python2.6/site-packages/scipy/optimize/minpack.py", line 270, in leastsq
+    retval = _minpack._lmdif(func,x0,args,full_output,ftol,xtol,gtol,maxfev,epsfcn,factor,diag)
+minpack.error: Result from function call is not a proper array of floats.
+GPAW CLEANUP (node 3): <class 'minpack.error'> occurred.  Calling MPI_Abort!
+ValueError: object too deep for desired array
+Traceback (most recent call last):
+  File "./task2.py", line 47, in <module>
+    main()
+  File "./task2.py", line 36, in main
+    params = opt.leastsq(residual, pInitial, args=(at, forcesDFT))
+  File "/beda/sw/apps/scipy/py26/0.7.2/mkl10.2/lib/python2.6/site-packages/scipy/optimize/minpack.py", line 270, in leastsq
+    retval = _minpack._lmdif(func,x0,args,full_output,ftol,xtol,gtol,maxfev,epsfcn,factor,diag)
+minpack.error: Result from function call is not a proper array of floats.
+GPAW CLEANUP (node 4): <class 'minpack.error'> occurred.  Calling MPI_Abort!
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 6 in communicator MPI_COMM_WORLD 
+with errorcode 42.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun has exited due to process rank 6 with PID 29663 on
+node beda41-1.nfs.private exiting without calling "finalize". This may
+have caused other processes in the application to be
+terminated by signals sent by mpirun (as reported here).
+--------------------------------------------------------------------------
