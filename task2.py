@@ -30,20 +30,13 @@ def main():
 	forcesDFT = atDFT.get_forces();
 	forcesDFT.flatten()	
 
+
 	A = 10000
-	lmbda = 2
+	lmbda = 3
 	D = 5
 	mu = 1
 	pInitial = (A, lmbda, D, mu)
 	params = opt.leastsq(residual, pInitial, args=(at, forcesDFT))
 		
-
-
-
-
-
-
-
-
 
 main()

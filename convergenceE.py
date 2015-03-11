@@ -5,39 +5,28 @@ from ase.calculators.eam import EAM
 from gpaw.eigensolvers import Davidson
 from gpaw import GPAW, PW
 
-# Find convergence for k, Ecut and h
+# Find convergence for Ecu
 al = read('POSCAR_1.1')
 
-outputFile = 'POSCAR_1.1out.txt'
+outputFile = 'convE1.1out.txt'
 
 # Change these befonre running the script
-gridSpaceStep = 0.1
+gridSpace = 0.3
+k = 4
 
-kStart = 1
-gridSpaceStart = 0.8
-EcutStart = 1
+EnergiesCutOff = [50]## 70 90 110 130 150 170 190 210 230 250 270]
 
-kMax = 4
-gridSpaceMax = 0.3
-EcutMax = 2
-
-# Find convergence for Ecut
-gridSpace = gridSpaceMax
-k = kMax
-
-EnergiesCutOff = [50 70 90 110 130 150 170 190 210 230 250 270]
-
-for Ecut in rEnergiesCutOff:
+for Ecut in EnergiesCutOff:
 	calc = GPAW(kpts = (k,k,k),
 		mode = PW(Ecut),
 		h = gridSpace,
-		nbands = 162,
+		nbands = 320,
 		xc = 'PBE',
 		txt = outputFile)
 
 	al.set_calculator(calc)
-
 	forces = al.get_forces()
+
 	print('%f \ %f',(forces, Ecut));
 
 
