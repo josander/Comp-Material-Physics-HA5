@@ -1,9 +1,9 @@
 import numpy as np
 from ase import *
 from ase.io import read
-#from ase.calculators.eam import EAM
-#from gpaw.eigensolvers import Davidson
-#from gpaw import GPAW, PW
+from ase.calculators.eam import EAM
+from gpaw.eigensolvers import Davidson
+from gpaw import GPAW, PW
 from eam_calculator import get_calc
 import scipy.optimize as opt
 
@@ -17,18 +17,23 @@ def getEMForces(p, at):
 # Calculates the residual of the foreces of (apos) with (p) params compared to DFTF 
 def residual(p, aPos,DFTF):
 	EAMF = getEMForces(p, aPos)
-	EAMF.flatten()
+	EAMF = EAMF.ravel()
+	EAMF = EAMF.reshape((len(EAMF), 1))
+	EAMF = EAMF.flatten()
 	#res = [a - b for a, b in zip(DFTF, EAMF)]
-	res = np.subtract(DFTF, EAMF)
+	res = list(np.subtract(DFTF, EAMF))
+	
 	return(res)
 
 	
 def main():
-	# Pseudokod som antagligen inte fungerar. Har inte vagat testa =(
+
 	atDFT = read('res_POSCAR_1.0.traj')
 	at = read('POSCAR_1.0')
-	forcesDFT = atDFT.get_forces();
-	forcesDFT.flatten()	
+	forcesDFT = atDFT.get_forces()
+	forcesDFT = forcesDFT.ravel()
+	forcesDFT = forcesDFT.reshape((len(forcesDFT), 1))
+	forcesDFT = forcesDFT.flatten()	
 
 
 	A = 10000
@@ -37,6 +42,9 @@ def main():
 	mu = 1
 	pInitial = (A, lmbda, D, mu)
 	params = opt.leastsq(residual, pInitial, args=(at, forcesDFT))
-		
+
+	result = str(params[0])+'\t'+str(params[1])+'\t'+str(params[2])+'\t'+str(params[3])
+		with open('temperatureData', 'a') as myfile:
+		myfile.write(result)
 
 main()

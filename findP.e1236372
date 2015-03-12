@@ -1,0 +1,35 @@
+
+Loading components for TIF035
+
+  File "./task2.py", line 46
+    result = str(params[0])+'\t'str(params[1])+'\t'str(params[2])+'\t'str(params[3])
+                                  ^
+SyntaxError: invalid syntax
+  File "./task2.py", line 46
+    result = str(params[0])+'\t'str(params[1])+'\t'str(params[2])+'\t'str(params[3])
+                                  ^
+SyntaxError: invalid syntax
+  File "./task2.py", line 46
+    result = str(params[0])+'\t'str(params[1])+'\t'str(params[2])+'\t'str(params[3])
+                                  ^
+SyntaxError: invalid syntax
+  File "./task2.py", line 46
+    result = str(params[0])+'\t'str(params[1])+'\t'str(params[2])+'\t'str(params[3])
+                                  ^
+SyntaxError: invalid syntax
+  File "./task2.py", line 46
+    result = str(params[0])+'\t'str(params[1])+'\t'str(params[2])+'\t'str(params[3])
+                                  ^
+SyntaxError: invalid syntax
+  File "./task2.py", line 46
+    result = str(params[0])+'\t'str(params[1])+'\t'str(params[2])+'\t'str(params[3])
+                                  ^
+SyntaxError: invalid syntax
+  File "./task2.py", line 46
+    result = str(params[0])+'\t'str(params[1])+'\t'str(params[2])+'\t'str(params[3])
+                                  ^
+SyntaxError: invalid syntax
+  File "./task2.py", line 46
+    result = str(params[0])+'\t'str(params[1])+'\t'str(params[2])+'\t'str(params[3])
+                                  ^
+SyntaxError: invalid syntax
