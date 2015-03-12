@@ -17,6 +17,7 @@ def getEMForces(p, at):
 # Calculates the residual of the foreces of (apos) with (p) params compared to DFTF 
 def residual(p, aPos,DFTF):
 	EAMF = getEMForces(p, aPos)
+	EAMF.flatten()
 	#res = [a - b for a, b in zip(DFTF, EAMF)]
 	res = np.subtract(DFTF, EAMF)
 	return(res)
@@ -26,7 +27,9 @@ def main():
 	# Pseudokod som antagligen inte fungerar. Har inte vagat testa =(
 	atDFT = read('res_POSCAR_1.0.traj')
 	at = read('POSCAR_1.0')
-	forcesDFT = atDFT.get_forces()
+	forcesDFT = atDFT.get_forces();
+	forcesDFT.flatten()	
+
 
 	A = 10000
 	lmbda = 3
