@@ -2,4 +2,5 @@ Tidslogg
 
 Davsven			Josander
 2 h	Labbtid		2 h	labbtid
-3 h	Bråk
+3 h	Bråk		5
+			4

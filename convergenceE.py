@@ -14,7 +14,7 @@ outputFile = 'convE1.1out.txt'
 gridSpace = 0.3
 k = 4
 
-EnergiesCutOff = [50]## 70 90 110 130 150 170 190 210 230 250 270]
+EnergiesCutOff = [50]##, 70, 90, 110, 130, 150]
 
 for Ecut in EnergiesCutOff:
 	calc = GPAW(kpts = (k,k,k),
@@ -26,7 +26,13 @@ for Ecut in EnergiesCutOff:
 
 	al.set_calculator(calc)
 	forces = al.get_forces()
+	
+	meanF = 0
 
-	print('%f \ %f',(forces, Ecut));
+	for atom in range(1, 108):
+		Forces[atom] = sqrt(forces[atom,1]*forces[atom,1]+forces[atom,2]*forces[atom,2]+forces[atom,3]*forces[atom,3])
+		meanF = meanF + Forces[atom]
+
+	print("%f \t %d" %(meanF/108, Ecut))
 
 
