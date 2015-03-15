@@ -1,0 +1,73 @@
+
+Loading components for TIF035
+
+Traceback (most recent call last):
+  File "./task2.py", line 61, in <module>
+    main()
+  File "./task2.py", line 44, in main
+    forcesDFT.append([latParam,cohE ])	
+AttributeError: 'numpy.ndarray' object has no attribute 'append'
+GPAW CLEANUP (node 6): <type 'exceptions.AttributeError'> occurred.  Calling MPI_Abort!
+Traceback (most recent call last):
+  File "./task2.py", line 61, in <module>
+    main()
+  File "./task2.py", line 44, in main
+    forcesDFT.append([latParam,cohE ])	
+AttributeError: 'numpy.ndarray' object has no attribute 'append'
+GPAW CLEANUP (node 1): <type 'exceptions.AttributeError'> occurred.  Calling MPI_Abort!
+Traceback (most recent call last):
+  File "./task2.py", line 61, in <module>
+    main()
+  File "./task2.py", line 44, in main
+    forcesDFT.append([latParam,cohE ])	
+AttributeError: 'numpy.ndarray' object has no attribute 'append'
+GPAW CLEANUP (node 2): <type 'exceptions.AttributeError'> occurred.  Calling MPI_Abort!
+Traceback (most recent call last):
+  File "./task2.py", line 61, in <module>
+    main()
+  File "./task2.py", line 44, in main
+    forcesDFT.append([latParam,cohE ])	
+AttributeError: 'numpy.ndarray' object has no attribute 'append'
+GPAW CLEANUP (node 3): <type 'exceptions.AttributeError'> occurred.  Calling MPI_Abort!
+Traceback (most recent call last):
+  File "./task2.py", line 61, in <module>
+    main()
+  File "./task2.py", line 44, in main
+    forcesDFT.append([latParam,cohE ])	
+AttributeError: 'numpy.ndarray' object has no attribute 'append'
+GPAW CLEANUP (node 5): <type 'exceptions.AttributeError'> occurred.  Calling MPI_Abort!
+Traceback (most recent call last):
+  File "./task2.py", line 61, in <module>
+    main()
+  File "./task2.py", line 44, in main
+    forcesDFT.append([latParam,cohE ])	
+AttributeError: 'numpy.ndarray' object has no attribute 'append'
+GPAW CLEANUP (node 7): <type 'exceptions.AttributeError'> occurred.  Calling MPI_Abort!
+Traceback (most recent call last):
+  File "./task2.py", line 61, in <module>
+    main()
+  File "./task2.py", line 44, in main
+    forcesDFT.append([latParam,cohE ])	
+AttributeError: 'numpy.ndarray' object has no attribute 'append'
+GPAW CLEANUP (node 0): <type 'exceptions.AttributeError'> occurred.  Calling MPI_Abort!
+Traceback (most recent call last):
+  File "./task2.py", line 61, in <module>
+    main()
+  File "./task2.py", line 44, in main
+    forcesDFT.append([latParam,cohE ])	
+AttributeError: 'numpy.ndarray' object has no attribute 'append'
+GPAW CLEANUP (node 4): <type 'exceptions.AttributeError'> occurred.  Calling MPI_Abort!
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 6 in communicator MPI_COMM_WORLD 
+with errorcode 42.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun has exited due to process rank 6 with PID 20148 on
+node beda61-1.nfs.private exiting without calling "finalize". This may
+have caused other processes in the application to be
+terminated by signals sent by mpirun (as reported here).
+--------------------------------------------------------------------------

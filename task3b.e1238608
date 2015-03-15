@@ -1,0 +1,10 @@
+
+Loading components for TIF035
+
+Traceback (most recent call last):
+  File "./task3b.py", line 82, in <module>
+    main()
+  File "./task3b.py", line 78, in main
+    result = str(ort[0])+'\t'+str(ort[1])+'\t'+str(ort[2])+'\n'+str(monoC[0])+'\t'+str(monoC[1])+'\t'+str(monoC[3])+'\n'
+IndexError: index out of bounds
+GPAW CLEANUP for serial binary: <type 'exceptions.IndexError'> occured. Calling sys.exit()

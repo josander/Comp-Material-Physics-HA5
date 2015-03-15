@@ -1,0 +1,7 @@
+
+Loading components for TIF035
+
+  File "./task3b.py", line 95
+    se = str(E_orth[-1])+'\t'+str(E_mono[-1])'\t'+str(E_tet[-1])+'\n'
+                                                ^
+SyntaxError: invalid syntax

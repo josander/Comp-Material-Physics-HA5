@@ -1,0 +1,35 @@
+
+Loading components for TIF035
+
+  File "./task2.py", line 61
+    main()
+    ^
+IndentationError: expected an indented block
+  File "./task2.py", line 61
+    main()
+    ^
+IndentationError:   File "./task2.py", line 61
+    main()
+    ^
+IndentationError: expected an indented block  File "./task2.py", line 61
+    main()
+expected an indented block
+
+  File "./task2.py", line 61
+    main()
+    ^
+IndentationError: expected an indented block
+  File "./task2.py", line 61
+    main()
+    ^
+IndentationError:   File "./task2.py", line 61
+    main()
+    ^
+IndentationError: expected an indented block
+    ^
+IndentationError: expected an indented block
+expected an indented block
+  File "./task2.py", line 61
+    main()
+    ^
+IndentationError: expected an indented block

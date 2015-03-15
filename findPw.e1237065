@@ -1,0 +1,10 @@
+
+Loading components for TIF035
+
+Traceback (most recent call last):
+  File "./task2.py", line 71, in <module>
+    main(sys.argv[1:])
+  File "./task2.py", line 66, in main
+    result = str(params[0][0])+'\t'+str(params[0][1])+'\t'+str(params[0][2])+'\t'+str(params[0][3])+'\t'+str(w1)**2+'\t'+str(w2)**2+'\n'
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+GPAW CLEANUP for serial binary: <type 'exceptions.TypeError'> occured. Calling sys.exit()

@@ -1,0 +1,35 @@
+
+Loading components for TIF035
+
+  File "./task2.py", line 47
+    with open('temperatureData', 'a') as myfile:
+    ^
+IndentationError:   File "./task2.py", line 47
+    with open('temperatureData', 'a') as myfile:
+    ^
+IndentationError: unexpected indent
+  File "./task2.py", line 47
+    with open('temperatureData', 'a') as myfile:
+    ^
+IndentationError: unexpected indent
+  File "./task2.py", line 47
+    with open('temperatureData', 'a') as myfile:
+    ^
+IndentationError: unexpected indent
+unexpected indent
+  File "./task2.py", line 47
+    with open('temperatureData', 'a') as myfile:
+    ^
+IndentationError: unexpected indent
+  File "./task2.py", line 47
+    with open('temperatureData', 'a') as myfile:
+    ^
+IndentationError: unexpected indent
+  File "./task2.py", line 47
+    with open('temperatureData', 'a') as myfile:
+    ^
+IndentationError: unexpected indent
+  File "./task2.py", line 47
+    with open('temperatureData', 'a') as myfile:
+    ^
+IndentationError: unexpected indent

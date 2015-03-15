@@ -1,11 +1,12 @@
 #!/bin/bash
 #PBS -q beda
 #PBS -A C3SE2015-1-28
-#PBS -l nodes=1:ppn=1
-#PBS -l walltime=00:20:00
+#PBS -l nodes=1:ppn=8
+#PBS -l walltime=01:00:00
 
 cd $PBS_O_WORKDIR
 module purge
 module load COURSES/TIF035-2014
 export GPAW_SETUP_PATH=$PBS_O_WORKDIR:$GPAW_SETUP_PATH
-mpirun gpaw-python ./task2.py 
+python ./task2.py 0.1 1500
+ 

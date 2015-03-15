@@ -1,0 +1,10 @@
+
+Loading components for TIF035
+
+Traceback (most recent call last):
+  File "./task3b.py", line 117, in <module>
+    main()
+  File "./task3b.py", line 101, in main
+    ort = np.polyfit(strain*conversion , E_orth, 2)	
+TypeError: can't multiply sequence by non-int of type 'float'
+GPAW CLEANUP for serial binary: <type 'exceptions.TypeError'> occured. Calling sys.exit()
